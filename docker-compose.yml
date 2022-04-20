@@ -4,7 +4,7 @@ services:
   #  Django(Python)
   backend:
     build:
-      context: ./python
+      context: ./backend
       dockerfile: Dockerfile
     container_name: django-app
     volumes:
